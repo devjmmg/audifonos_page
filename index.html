@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundPro Audifonos</title>
+    
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    
+    <header class="header">
+        <div class="contenedor header__contenido">
+            <div class="header__imagen">
+                <picture>
+                    <source
+                    sizes="1920w"
+                    srcset="img/header.avif 1920w"
+                    type="image/avif">
+                    <source
+                    sizes="1920w"
+                    srcset="img/header.webp 1920w"
+                    type="image/webp">
+                    <source
+                    sizes="1920w"
+                    srcset="img/header.jpg 1920w"
+                    type="image/jpeg">
+                    <img loading="lazy" decoding="async" src="img/header.jpg" 
+                    lazyalt="Imagen" width="1000" height="600">
+                </picture>
+            </div>
+            <div class="header__info">
+                <p class="header__etiqueta">
+                    Sonido Profesional
+                </p>
+                <h1 class="header__titulo degradado-verde">
+                    SoundPro
+                </h1>
+                <p class="header__descripcion">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet saepe maxime, quam beatae voluptatum minima, suscipit earum, dolores dolorem sunt aliquid nulla aliquam voluptatibus? Eveniet, pariatur? Corrupti maxime atque voluptatibus?
+                </p>
+                <p class="header__precio">
+                    Desde <span>$5000</span>
+                </p>
+            </div>
+            
+        </div>
+    </header>
+    
+    <section class="contenedor">
+        
+        <div class="iconos">
+            
+            <div class="icono">
+                
+                <img src="img/icono-sonido.svg" alt="Imagen Icono">
+                <h3>Gran Sonido</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae facilis magnam nostrum rerum vel iure cum repudiandae.
+                </p>
+            </div>
+            
+            <div class="icono">
+                
+                <img src="img/icono-garantia.svg" alt="Imagen Icono">
+                <h3>Garantía de por vida</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae facilis magnam nostrum rerum vel iure cum repudiandae.
+                </p>
+            </div>
+            
+            <div class="icono">
+                
+                <img src="img/icono-bateria.svg" alt="Imagen Icono">
+                <h3>+20 Horas de Bateria</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae facilis magnam nostrum rerum vel iure cum repudiandae.
+                </p>
+            </div>
+            
+        </div>
+        
+    </section>
+    
+    <section class="sobre-sound">
+        <div class="contenedor sobre-sound-grid">
+            
+            <div class="sobre-sound__texto">
+                <h2>Sobre los <span>SoundPro</span></h2>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quia, quasi quos veritatis animi impedit eligendi praesentium doloribus sed, non quisquam. Doloremque sint aspernatur animi vel, amet cumque! Quo, exercitationem?</p>
+            </div>
+            
+        </div>
+        
+    </section>
+    
+    <main class="contenedor principal">
+        
+        <h2 class="text-center degradado-verde principal__titulo">Elige tus SoundPro</h2>
+        
+        <div class="productos">
+            
+            <div class="producto modelo-x">
+                <h3>SoundPro X</h3>
+                <p>$360</p>
+            </div>
+            
+            <div class="producto modelo-y">
+                <h3 >SoundPro Y</h3>
+                <p>$760</p>
+            </div>
+            
+            <div class="producto modelo-z">
+                <h3 >SoundPro Z</h3>
+                <p>$999</p>
+            </div>
+            
+        </div>
+        
+    </main>
+    
+    <section class="newsletter">
+        <div class="newsletter__contenido contenedor">
+            
+            <div class="newsletter__info">
+                
+                <h2>Recibe Actualizaciones</h2>
+                
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident beatae culpa nesciunt eveniet et eum voluptate aut quisquam ipsam in molestiae iure, error ipsum sint
+                </p>
+                
+                <form class="formulario">
+                    
+                    <div class="campo">
+                        
+                        <input type="text" placeholder="Tu Email">
+                        
+                    </div>
+                    
+                    <input type="submit" value="Inscribirme">
+                    
+                </form>
+                
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p class="text-center">Todo los derechos reservados - 2024 &copy;</p>
+    </footer>
+    
+    <script src="js/imagenes.js"></script>
+
+</body>
+</html>
